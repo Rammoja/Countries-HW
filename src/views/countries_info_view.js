@@ -1,5 +1,4 @@
 const PubSub = require('../helpers/pub_sub.js');
-const Request = require('../helpers/request.js');
 
 const CountriesInfoView = function (container) {
   this.container = container;
@@ -15,7 +14,7 @@ CountriesInfoView.prototype.bindEvents = function () {
 
 CountriesInfoView.prototype.render = function (countries) {
   const p = document.createElement('p');
-  p.textContent = countires;
+  p.textContent = countries;
   this.container.appendChild(p);
 }
 

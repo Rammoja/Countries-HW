@@ -1,5 +1,5 @@
-const Countries = require('../models/countries.js');
-const CountriesInfoView = require('../views/countries_info_view');
+const Countries = require('./models/countries.js');
+const CountriesInfoView = require('./views/countries_info_view');
 
 
 

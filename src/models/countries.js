@@ -12,6 +12,6 @@ Countries.prototype.getData = function () {
     this.text = countriesData.countries;
     PubSub.publish('Countries:countries-loaded', this.text);
   });
-
+}
 
 module.exports = Countries;
